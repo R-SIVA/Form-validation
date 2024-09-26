@@ -1,0 +1,140 @@
+/* Base Styles for the Form */
+.registration-form {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading Styles */
+  h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    color: #777777;
+    margin-bottom: 25px;
+  }
+  
+  /* Form Row Layout */
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styles */
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444444;
+    font-size: 14px;
+  }
+  
+  /* Input and Select Styles */
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fafafa;
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Error Message Styling */
+  .error {
+    color: #ff4d4d;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Column Group Styling */
+  .column-group {
+    flex-basis: 30%;
+  }
+  
+  /* Submit Button Styling */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Subtle Input Border Rounding */
+  .form-group input,
+  .form-group select {
+    border-radius: 6px;
+  }
+  
+  /* Add a slight hover effect on form elements */
+  .form-group input:hover,
+  .form-group select:hover {
+    border-color: #bbb;
+  }
+  
+  /* Subtle background and border color for inputs */
+  .form-group input {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+  
+  /* Fieldset-like Group Spacing */
+  .form-group input,
+  .form-group select {
+    margin-bottom: 12px;
+  }
+  
+  /* Background Style for Form Body */
+  .registration-form {
+    background: linear-gradient(135deg, #f9f9f9 40%, #f1f1f1 100%);
+    padding: 40px;
+    border-radius: 12px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .column-group {
+      flex-basis: 100%;
+    }
+  }
+  
